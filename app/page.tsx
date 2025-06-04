@@ -6,11 +6,11 @@ import { useState } from "react";
 
 export default function Home() {
   type ProductTwoCol = {
-    image: any;
-    hoverImage: any;
-    title: any;
-    description: any;
-    status: any;
+    image: string ;
+    hoverImage: string ;
+    title: string ;
+    description: string ;
+    status: string ;
   };
 
  const ProductCardTwoCol = ({ image, hoverImage, title, description, status }: ProductTwoCol) => {
@@ -64,10 +64,10 @@ export default function Home() {
   };
 
   type ProductThreeCol = {
-    image: any;
-    hoverImage: any;
-    title: any;
-    status: any;
+    image: string ;
+    hoverImage: string ;
+    title: string ;
+    status: string ;
   };
 
 const ProductCardThreeCol = ({ image, hoverImage, title, status }: ProductThreeCol) => {

@@ -1,11 +1,11 @@
-import { ChevronDown, Menu, RectangleHorizontal, ShoppingBasket, ShoppingCart, X } from "lucide-react";
+import { ChevronDown, Menu, ShoppingCart } from "lucide-react";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import { Sheet, SheetClose, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 
 export default function HeaderComponent() {
     const navItems = [
