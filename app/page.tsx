@@ -38,7 +38,7 @@ export default function Home() {
           {status !== 'Sold Out' && (
             <button
               className={`absolute -bottom-9 right-0 transform bg-navy text-white text-xs font-bold px-4 py-2 
-                          rounded-2xl shadow hover:bg-[#111938]transition-opacity duration-500 ease-in-out
+                          rounded-2xl shadow hover:bg-[#111938] not-only:transition-opacity duration-500 ease-in-out
                           w-[101.88px] h-[30.13px] flex items-center justify-center
                           ${isHovered ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-0 pointer-events-none'}`}
             >
